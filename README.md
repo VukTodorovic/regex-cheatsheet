@@ -15,3 +15,4 @@
 | `[\s\S]?+`       | Matches **zero or one of any character (including newline)**, but **possessive** (no backtracking). |
 | `re.DOTALL`      | A Python regex **flag** that makes `.` match **all characters, including newlines**. Without it, `.` stops at line breaks. |
 | `re.MULTILINE`   | A Python regex **flag** that makes `^` and `$` match at the **start and end of each line** (not just the whole string). |
+| `(...)`          | **Capturing group** - if you search by larger string but want to keep only a substring |
