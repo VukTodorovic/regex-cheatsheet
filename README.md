@@ -11,6 +11,7 @@
 | `*`              | Matches **zero or more** of the preceding token (greedy by default). |
 | `\s*`            | Matches **zero or more whitespace characters**. |
 | `[\s\S]+`        | Matches **one or more of any character**, including newlines. |
+| `+?`             | Matches **one or more** of the preceding token (in **lazy mode**, expends until first match). |
 | `?+`             | Matches **zero or one** of the preceding token (in **possessive mode**, no backtracking). |
 | `[\s\S]?+`       | Matches **zero or one of any character (including newline)**, but **possessive** (no backtracking). |
 | `re.DOTALL`      | A Python regex **flag** that makes `.` match **all characters, including newlines**. Without it, `.` stops at line breaks. |
